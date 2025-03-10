@@ -80,10 +80,10 @@ public class Main {
         } while (opcion != 6);
 
         if (total > 0) {
-            iva = total * 0.10;
+            iva = total * 0.16;
             total += iva;
             System.out.println("\nSubtotal: $" + (int) (total - iva));
-            System.out.println("IVA (10%): $" + (int) iva);
+            System.out.println("IVA (16%): $" + (int) iva);
             System.out.println("Total a pagar con IVA: $" + (int) total);
         } else {
             System.out.println("\nNo realizaste ninguna compra.");
